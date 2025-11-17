@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LDTeamPerformanceTrackerLib_Example' do
+  pod 'LDTeamPerformanceTrackerLib', :path => '../'
+
+  target 'LDTeamPerformanceTrackerLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
