@@ -1,0 +1,16 @@
+PODS:
+  - LDTeamPerformanceTrackerLib (0.1.0)
+
+DEPENDENCIES:
+  - LDTeamPerformanceTrackerLib (from `../`)
+
+EXTERNAL SOURCES:
+  LDTeamPerformanceTrackerLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LDTeamPerformanceTrackerLib: 3f0f5602981ce3ee55f5e9cf02119fe8169eb096
+
+PODFILE CHECKSUM: 538fa6965daf01d4d15e70ba747639983279e0f4
+
+COCOAPODS: 1.16.2
