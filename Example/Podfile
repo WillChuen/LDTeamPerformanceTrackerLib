@@ -11,3 +11,7 @@ target 'LDTeamPerformanceTrackerLib_Example' do
     
   end
 end
+
+install! 'cocoapods',
+:disable_input_output_paths => true,
+:preserve_pod_file_structure => true
