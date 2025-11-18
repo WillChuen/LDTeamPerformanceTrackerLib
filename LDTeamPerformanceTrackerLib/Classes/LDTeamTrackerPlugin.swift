@@ -14,7 +14,7 @@ public protocol LDTeamTrackerPlugin {
                operation: String)
     /// 结束跟踪
     func finish(name: String,
-                status: Int)
+                status: LDTeamTrackerStatus)
     /// 设置跟踪器数据
     func setTrackerData(name: String,
                         value: Any?,
@@ -36,7 +36,7 @@ public protocol LDTeamTrackerPlugin {
     /// 结束一个跨度
     func finishSpan(name: String,
                     operation: String,
-                    status: Int)
+                    status: LDTeamTrackerStatus)
     /// 设置子跨度数据
     func setTrackerChildData(name: String,
                              operation: String,
