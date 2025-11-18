@@ -31,6 +31,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.swift_versions = ['5.0']
 
+
+  # Support for x86_64 architecture (Intel simulators)
+  s.pod_target_xcconfig = { 
+    'VALID_ARCHS' => 'arm64 armv7 armv7s x86_64',
+    'ARCHS' => 'arm64 armv7 armv7s x86_64'
+  }
   s.source_files = 'LDTeamPerformanceTrackerLib/Classes/**/*'
   
   # s.resource_bundles = {
