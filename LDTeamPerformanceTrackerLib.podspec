@@ -34,8 +34,8 @@ TODO: Add long description of the pod here.
 
   # Support for x86_64 architecture (Intel simulators)
   s.pod_target_xcconfig = { 
-    'VALID_ARCHS' => 'arm64 armv7 armv7s x86_64',
-    'ARCHS' => 'arm64 armv7 armv7s x86_64'
+    'VALID_ARCHS' => 'arm64 x86_64',
+    'ARCHS' => 'arm64 x86_64'
   }
   s.source_files = 'LDTeamPerformanceTrackerLib/Classes/**/*'
   
