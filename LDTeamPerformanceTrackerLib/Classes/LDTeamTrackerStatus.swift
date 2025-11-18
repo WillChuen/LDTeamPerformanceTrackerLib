@@ -8,7 +8,7 @@
 import Foundation
 
 /// 团队监控结束状态
-public enum LDTeamTrackerStatus: Int {
+@objc(LDTeamTrackerStatus) public enum LDTeamTrackerStatus: Int {
     /// 未定义状态
     case undefined = -100000
     /// 成功

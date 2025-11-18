@@ -1,5 +1,4 @@
 import XCTest
-import LDTeamPerformanceTrackerLib
 
 class Tests: XCTestCase {
     
